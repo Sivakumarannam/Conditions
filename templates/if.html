@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <!-- <h1>If Condition</h1>
+        {% if a > 10 %}
+            <h1>A is greater than 10</h1>
+        {% endif %} -->
+
+        <!-- <h1>If-else condition</h1>
+        {% if a > b %}
+         <h1>A is greater Than B</h1>
+        {% else %}
+        <h1>B is greater than A</h1>
+        {% endif %} -->
+
+        <!-- <h1>If-elif-else</h1>
+        {% if a > b and a > c %}
+            <h1>A is greater than B,C</h1>
+        {% elif b > c %}
+            <h1>B is greater Than A,C</h1>
+        {% else %}
+            <h1>C is greter than A,B</h1>
+        {% endif %} -->
+
+        <h1>Nested If</h1>
+        {% if a > b %}
+            {% if a > c %}
+            <h1>A is max</h1>
+            {% else %}
+            <h1>C is max</h1>
+            {% endif %}
+        {% else %}
+            {% if b > c %}
+            <h1>B is max</h1>
+            {% else %}
+            <h1>C is max</h1>
+            {% endif %}
+        {% endif %}
+    </center>
+</body>
+</html>
